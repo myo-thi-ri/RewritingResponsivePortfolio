@@ -16,8 +16,12 @@ h6 {
   font-family: var(--heading-font-family);
 }
 
+h3 {
+  font-size: 24px;
+}
+
 .content-container {
-  padding: 160px 20px;
+  padding: 130px 20px;
 }
 
 .content {
