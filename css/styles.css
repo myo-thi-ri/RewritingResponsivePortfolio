@@ -118,6 +118,44 @@ li.active a {
   font-size: 64px;
 }
 
+footer {
+  margin: 60px 0;
+}
+footer .contact-box {
+  background: var(--secondary-color);
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+
+footer .contact-box p {
+  margin: 0;
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+}
+
+footer .email-link:hover {
+  color: var(--branding-color);
+}
+
+footer .social-link a {
+  margin: 0 20px;
+  color: var(--branding-color);
+  background: var(--secondary-color);
+  border-radius: 50%;
+  padding: 10px 14px;
+  font-size: 18px;
+  transition: all 100ms ease-in-out;
+}
+
+footer .social-link a:hover {
+  color: var(--secondary-color);
+  background: var(--branding-color);
+}
+
 @media (max-width: 900px) {
   .project-description {
     padding: 0;
