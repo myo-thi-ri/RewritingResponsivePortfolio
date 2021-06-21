@@ -7,6 +7,10 @@ font-family: 'Poppins', sans-serif; */
   --default-font-family: "Poppins", sans-serif;
 }
 
+body{
+  margin: 0 auto;
+}
+
 h1,
 h2,
 h3,
@@ -182,4 +186,28 @@ footer .social-link a:hover {
   p {
     font-size: 14px;
   }
+}
+
+@media (max-width:375px) {
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
+  .intro h1,
+  .project-description h2 {
+    font-size: 32px;
+  }
+
+  h3{
+    font-size: 18px;
+  }
+
+  p {
+    font-size: 12px;
+  }
+
+  .content-container {
+    padding: 60px 10px;
+  }
+
 }
