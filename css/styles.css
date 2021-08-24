@@ -215,3 +215,11 @@ footer .social-link a:hover {
   }
 
 }
+
+#today-quote {
+  color: var(--branding-color);
+  background-color: var(--secondary-color);
+  text-align: center;
+  padding: 5%;
+  margin: 30px auto;
+}
